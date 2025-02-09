@@ -1,2 +1,3 @@
-# CSE-60868-Semester_Project
-## test
+# Conceptual Design: 3D Point Cloud Enhancement for On-the-Fly 3D Printer Control
+## Description
+To 3D print on a dynamic surface, a six-axis robotic arm utilizes a high frequency depth and color camera to create a 3D point cloud of the surface to be printed on. This allows the printer to observe the shape change of the surface for a period and use the data to predict the shape of the surface at the time of the next point it needs to print using a RNN algorithm. However, this workflow faces some challenges
