@@ -19,3 +19,7 @@ In order to evaluate these methods, various metrics to compare PCDs can be utili
 
 ## Conclusion
 It is unknown whether completing a pipeline of point cloud enhancement capable of all three goals is within the scope of the project, however, at the very least one goal will be implemented. All three goals can likely be implemented in series by combining existing open-source methods, but as they have overlapping techniques and ideas it may be possible to implement them simultaneously. It is currently thought that unsupervised methods of each goal should be the focus, as the intend application should be adaptable to unforeseen environments. However, for specific application scenarios ground truth models can be provided for supervised techniques if necessary.
+
+# Refined Conceptual Design: 3D Point Cloud Upsampling for On-the-Fly 3D Printer Control
+
+As one of the most pressing issues with the depth and color camera used for on-the-fly robotic arm printer control is the low resolution of the PCDs produced by the camera, upsampling has been chosen as the point of focus for this project. The technique for upsampling PCDs will be based off of the [PU-Dense](https://aniqueakhtar.github.io/publications/PU-Dense/) architecture, as it is trained on widely availible synthetic models (which can be used as the ground-truth and sparsely sampled to create PCDs) and still demonstrates great performance when applied to real-world scans. Databases with objects exhibiting features similar to the intended use case will be used to train the model will be selected. 
