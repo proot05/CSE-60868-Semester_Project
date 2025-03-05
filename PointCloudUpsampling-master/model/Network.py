@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import MinkowskiEngine as ME
 import MinkowskiEngine.MinkowskiFunctional as MEF
-from model.BasicBlock import MyInception_1, Pyramid_1
+from BasicBlock import MyInception_1, Pyramid_1
 import numpy as np
 
 

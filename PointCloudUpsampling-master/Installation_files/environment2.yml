@@ -1,0 +1,55 @@
+name: mink
+channels:
+  - pytorch
+  - open3d-admin
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # ARM64 support is better with Python 3.9+
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipython
+  - ipykernel
+  - widgetsnbextension
+  - pyqt
+  - pillow
+  - open3d
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorflow
+  - tensorflow-estimator
+  - tensorboard
+  - protobuf
+  - grpcio
+  - absl-py
+  - pyyaml
+  - termcolor
+  - tqdm
+  - certifi
+  - setuptools
+  - wheel
+  - zlib
+  - libpng
+  - freetype
+  - lz4-c
+  - sqlite
+  - tk
+  - xz
+  - yaml
+  - pycparser  # Restored missing dependency
+  - pygments  # Restored for syntax highlighting
+  - entrypoints  # Required for Jupyter
+  - jupyterlab_server  # Restored for JupyterLab support
+  - mock  # Restored for testing compatibility
+  - pip:
+      - minkowskiengine==0.4.3
+      - numpy==1.16.4
