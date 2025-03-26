@@ -35,3 +35,6 @@ As one of the most pressing issues with the depth and color camera used for on-t
     <img src="./Images/PrintingSurf.JPG" alt="Printing Surface" style="width:50%; height:auto;"> 
 </div>
 As the ultimate test for the model and the purpose of the project, scans will be taken with the robotic arm printer and fed into this model for upsampling. A collection of example scans of the printing surface have already been obtained, but it is desired to demonstrate the upsampling as a direct part of the printing workflow. The surface this will be tested on is a silicon membrane resembling the veiny surface of the heart that is pneumatically actuated to inflate and deflate. If successful (and depending on certain timelines), other more complicated surfaces may include a robotic silicon human heart model or a real rat heart.
+
+# Initial Update
+Due to issues with setting up the environment to run the PU-Dense upsampling model, substantial progress has not been made and I will be utilizing the late pass for this assignment. If the dependency issues can not be solved, the model will be recreated utilizing Pytorch.
