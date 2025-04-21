@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="mink" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.7.13 Docker (minkowski_engine:latest)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="apu-ldi" project-jdk-type="Python SDK" />
 </project>

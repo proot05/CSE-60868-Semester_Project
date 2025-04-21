@@ -1,0 +1,11 @@
+# ninja log v5
+422	14391	7665390892169005	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/pointops_api.obj	665b18d70e30524b
+194	30338	7665391051264122	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/grouping_int/grouping_int_cuda_kernel.obj	ee1dc0da259e1527
+51	30637	7665391052326735	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/ballquery/ballquery_cuda_kernel.obj	c5877766d6cb8478
+170	30661	7665391054552876	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/grouping/grouping_cuda_kernel.obj	e11e0135580b1c82
+414	30998	7665391058028336	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/labelstat/labelstat_cuda_kernel.obj	759a921cabeb0e22
+98	31089	7665391058903146	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/featuredistribute/featuredistribute_cuda_kernel.obj	d3bb181a649f79fd
+341	31322	7665391061221875	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/knnquery_heap/knnquery_heap_cuda_kernel.obj	d09577efca396e89
+251	32037	7665391068350329	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/interpolation/interpolation_cuda_kernel.obj	fa5760980d0f5808
+292	32124	7665391069204778	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/knnquery/knnquery_cuda_kernel.obj	e1ff3681b9619dbf
+467	32396	7665391071827208	C:/Users/proot/Desktop/CSE-60868-Semester_Project/APU-LDI-master/local_distance_indicator/models/pointops/build/temp.win-amd64-cpython-311/Release/src/sampling/sampling_cuda_kernel.obj	eeefe99bbd0c92ce
